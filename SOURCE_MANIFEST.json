@@ -1,0 +1,314 @@
+{
+  "qaph_identity": "frozen-v0 computations; namespaced module organization",
+  "files": [
+    {
+      "file": "qaph/losses.py",
+      "sha256": "588ef0f7d0cbea615c1d4b7d35e9811406fff8229b9a320cb7a436ede2957a39",
+      "source_file": "model/unified_qos_model_v42_v0.py",
+      "source_sha256": "bb01ee03cffe12912b5e9724565a0539303ff6351d5b0a640d1519ba19154b5a",
+      "changes": "top-level definitions extracted verbatim; all class/function bodies identical by AST",
+      "additional_source": "run_v42_rolling_experiments_v0.py:CauchyLoss"
+    },
+    {
+      "file": "qaph/heads.py",
+      "sha256": "c211ca7dcb604ab45ca0b6a0ce73230cfa873128e51e3bcdf40376216abf4461",
+      "source_file": "model/unified_qos_model_v42_v0.py",
+      "source_sha256": "bb01ee03cffe12912b5e9724565a0539303ff6351d5b0a640d1519ba19154b5a",
+      "changes": "top-level definitions extracted verbatim; all class/function bodies identical by AST"
+    },
+    {
+      "file": "qaph/model.py",
+      "sha256": "57f1c656f401a21e5ef0f9905242dba7d0c9e7f5adb13ba4def437a8bfa9d3bc",
+      "source_file": "model/unified_qos_model_v42_v0.py",
+      "source_sha256": "bb01ee03cffe12912b5e9724565a0539303ff6351d5b0a640d1519ba19154b5a",
+      "changes": "top-level definitions extracted verbatim; all class/function bodies identical by AST"
+    },
+    {
+      "file": "qaph/features/statistics.py",
+      "sha256": "a62f938c6b295aac133100c82b3cd05f3c693c2dd921b141878b0069786774e0",
+      "source_file": "temporal_qos/statistical_features.py",
+      "source_sha256": "1a099d4f9af75945edfbd93537d0e1c7c9c5200720d3baa05e17596ac0d0d1bf",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "qaph/features/neighbors.py",
+      "sha256": "2d67be022787134f25ab4813aac8005fd439bd07ccf108f0473bc89d2c8ad986",
+      "source_file": "temporal_qos/global_aware_neighbor_selection.py",
+      "source_sha256": "2d67be022787134f25ab4813aac8005fd439bd07ccf108f0473bc89d2c8ad986",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "qaph/encoders/temporal.py",
+      "sha256": "db54128e09aeea0afa31d862351a334aeebad5db7cb2ce3e4942203738cbd049",
+      "source_file": "temporal_qos/parallel_tgem.py",
+      "source_sha256": "ad757f00ec5480c40cbab892db21be112217986ebcd3d38cd603b19706bac1d4",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "qaph/encoders/sega.py",
+      "sha256": "79ef847d69683374e51f004f219b0a9efb2bd4095c051d97a8db5fd46cc2255d",
+      "source_file": "temporal_qos/parametric_gcn.py",
+      "source_sha256": "79ef847d69683374e51f004f219b0a9efb2bd4095c051d97a8db5fd46cc2255d",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "qaph/graphs/fig.py",
+      "sha256": "d16060373846a6f36b01c43a18f8ba6f9e16a3a043afef12ba672c0be1a10372",
+      "source_file": "temporal_qos/lightgcn_embedding.py",
+      "source_sha256": "d16060373846a6f36b01c43a18f8ba6f9e16a3a043afef12ba672c0be1a10372",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "qaph/graphs/second_order.py",
+      "sha256": "29a8b6b2d440942f35d3f4d7292d0483400aaeb941068bd7b323cd2a8c894074",
+      "source_file": "temporal_qos/second_order_graph_builder.py",
+      "source_sha256": "29a8b6b2d440942f35d3f4d7292d0483400aaeb941068bd7b323cd2a8c894074",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "qaph/data/loader.py",
+      "sha256": "67d20bf14b0a9448012babe3984b7d4b0828e5ec17ffd13d6962a777a8fb023b",
+      "source_file": "temporal_qos/hctn_data_splitter.py",
+      "source_sha256": "5a069a1b8c96e96b3523a005ffb1e18bc067b19c58e3e20eb0ad7e40f1283af8",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "qaph/features/anomalies.py",
+      "sha256": "22bb73d0142b6214c343077cf14e73e5119b3dd75bb60c23382cebe1febf43d3",
+      "source_file": "temporal_qos/anomaly_detection.py",
+      "source_sha256": "22bb73d0142b6214c343077cf14e73e5119b3dd75bb60c23382cebe1febf43d3",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "shared/protocol.py",
+      "sha256": "f3f446bb40326ab85326ffbfe780cc9575cf27cd6cc8ec68152448aa87c04a22",
+      "source_file": "rolling_protocol.py",
+      "source_sha256": "491e3f28c989cce4509a000f21c2ce2f66dbc8dce8d378354a9e62b1fafeb444",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "shared/splits.py",
+      "sha256": "2d490ec8120097853fd3b20b0e7b512160e00fda8f53283f82d8658c512ff7f4",
+      "source_file": "baseline_shared_split.py",
+      "source_sha256": "de8d9b43e254d0611d5fa58911e0b76c71ee0cb0ad500b603905534262116ff8",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "qaph/training/engine.py",
+      "sha256": "1334e4fc2fd73e7be5a87d535e79d130109d62e430a3fdd7eb307f0e85ce6dd5",
+      "source_file": "run_v42_rolling_experiments_v0.py",
+      "source_sha256": "7788bfec0d487c393761a4e8a45cdc0948babe79df34aee8bb24bb873265946f",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "qaph/train.py",
+      "sha256": "e57d1b8a5358944d660f1866a06585be446c0acfc2bd3cbea763c7471eade263",
+      "source_file": "run_qaph.py",
+      "source_sha256": "7ee83fd4683b44fbc9ac5b226e1f35b37ebe534dc28dc09f5dc62a6bff1f9814",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST; glue-code formatting checked by AST"
+    },
+    {
+      "file": "shared/prepare_data.py",
+      "sha256": "7abd9b3f4fb4ca96fc39b9cf1fdf0f17750b0a6f32d4e1830d5545c8e31a2aca",
+      "source_file": "prepare_data.py",
+      "source_sha256": "76d8e966ee2cca5ba0838753af28f12b85a4da1478472048cdbb2313f240df62",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST; glue-code formatting checked by AST"
+    },
+    {
+      "file": "shared/runtime.py",
+      "sha256": "6377bccd4e0ad23d89ce75e6903bed7202e2e98463589499b2e11090a3171cd7",
+      "source_file": "baselines/classical/runtime.py",
+      "source_sha256": "d93508da7d495b0a8f348b2b47dc333c500c6d69d12e9cc05eea5a156447434d",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST; glue-code formatting checked by AST"
+    },
+    {
+      "file": "baselines/_shared/tensor_factorization.py",
+      "sha256": "1c7a73ac24dac3572f2ce96b5c63d622887ceb051107c839f4bc51e88cf02f50",
+      "source_file": "baselines/classical/algorithms.py",
+      "source_sha256": "62cc19e700f9d11f96c8a81996d19d9529597043a49ab748f6cc80d17ecfd9d1",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "baselines/bnlft/model.py",
+      "sha256": "689bf9259e7971607631ab2c31f610ec267c5ecc3d56185753f170b7f8ab57a5",
+      "source_file": "baselines/classical/native_bnlft.py",
+      "source_sha256": "2e4b18f3d9a450302a592982561c25c38708f2a40ab57675a5dae953d88f4751",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "baselines/_shared/history.py",
+      "sha256": "6435d3239a04f7ec01ecee068ec74b79214a5a846231124fe97e3597b18be49c",
+      "source_file": "baselines/classical/history_stage.py",
+      "source_sha256": "bcaf4ac020e077b618ab08397496ec83492438e49da68e53c4e1a03ee5ec893f",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "baselines/_shared/target.py",
+      "sha256": "7c2978041b0497a257f636e5ce75034dd9fecc0d20edb5dd9922501292576238",
+      "source_file": "baselines/classical/target_stage.py",
+      "source_sha256": "495ac714ee361c8093232d6405d9b6ea93001a0de191c9c0e9a7eae06d4e2db0",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "baselines/trcf/model.py",
+      "sha256": "d77d41c83aad36928e5d733d9a12f0ee3b8509cb3fefca6436cf9c91736477f6",
+      "source_file": "baselines/classical/history_adapter.py",
+      "source_sha256": "2877f770de6813742d26f7d22f7efa5e473ea1a1c7d599d978222667e2ec9f0d",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "baselines/gmcl/model.py",
+      "sha256": "dbff164fbc84a9e95ed92fb63d24f60548ce2a9ea9994579249756b568bfd221",
+      "source_file": "baselines/classical/gmcl.py",
+      "source_sha256": "82b34e20e3c618ebbdead226660b2df43fa16c5fdb2cea10c6ffe22e72213383",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "baselines/hctn/model.py",
+      "sha256": "c0c9b93ac713d664ccde1e9bcfddb3e925deda3a787f9d3eb7f9e8bbf981d95c",
+      "source_file": "hctn_paper_model.py",
+      "source_sha256": "c6640cc2241c1531dffb979c78cb9df9204303f4de55c26a30c6d7449a3b6ed9",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "baselines/hctn/features.py",
+      "sha256": "d54ac769e1c6eca9b27f9cfc516990eb290b63ddf8b3a3e9002fcb383ab79555",
+      "source_file": "hctn_paper_features.py",
+      "source_sha256": "3bd594027fe2b041c91614ed715846e7d32d7e1368b4d91a5ab156d5a14c2756",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "baselines/hctn/train.py",
+      "sha256": "84650b57fdc406be1929b86e3adbf83d96edc33530c5db76ef4cd9d3c27bb09a",
+      "source_file": "scripts/run_hctn_paper_shared.py",
+      "source_sha256": "22bbbbc3b92aae01f0351ebf5a4d973a98939d5b863e3fc33e7684967939f4a6",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "baselines/gacl/model.py",
+      "sha256": "2bdbea9b89656b66377b562309172135175f462c6b0ca3e74c56d2d5325f9444",
+      "source_file": "gacl_paper_model.py",
+      "source_sha256": "8c42702729af0c6c01e56b50a601c7ac1718d8c6c7a49b58fd38fcb74b883066",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "baselines/gacl/graph.py",
+      "sha256": "92e156b089d61b5bfc689cbc821e427a6d14268b35de6ff5e0f1f8d88dd14e2e",
+      "source_file": "gacl_paper_graph.py",
+      "source_sha256": "baf14ac4b1d7f0f292b3f2bb27ef6a64125afde4458ec49e13d57687747f1ef4",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "baselines/gacl/train.py",
+      "sha256": "bdf77af06a5a2f31b7cf6a34a2674dc9d8690321f81d2d2a43c95800613f6566",
+      "source_file": "scripts/run_gacl_paper_shared.py",
+      "source_sha256": "1e9ec99d33e74ee5b8726119c0e3e58a8c8eeae618c8915b7c9d562a996d0535",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "baselines/tpmcf/features.py",
+      "sha256": "5c2b7c40f39ca6d608b0711a24065664ba99368deb2c129a96b7dc025f261d1b",
+      "source_file": "tpmcf_paper_features.py",
+      "source_sha256": "82e67d2c3e047703ab95ae41e0a6ee100c5b1a1d0b74eef797ba0a4e26bb5e8a",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST"
+    },
+    {
+      "file": "baselines/tpmcf/train.py",
+      "sha256": "28977a2a5a066adcabb8f3d0909fbb874731df5ebcabebf2e496b51863106109",
+      "source_file": "scripts/run_tpmcf_paper_aligned_shared.py",
+      "source_sha256": "55a9c1ebe90c680290db7113e52e9cf250aa7ca328ff0c48a35e2b1ce5ac7189",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST; network classes moved to model.py and model provenance included"
+    },
+    {
+      "file": "baselines/tpmcf/model.py",
+      "sha256": "84043ba0f3b74c61d9e715f60639cf3b60aa898a5dea2a8235a7ca766a1a7d73",
+      "source_file": "scripts/run_tpmcf_paper_aligned_shared.py",
+      "source_sha256": "55a9c1ebe90c680290db7113e52e9cf250aa7ca328ff0c48a35e2b1ce5ac7189",
+      "changes": "model classes extracted verbatim; AST-identical definitions"
+    },
+    {
+      "file": "baselines/_shared/training.py",
+      "sha256": "ec28f6de3371ea9a80b02b46fb2c79dfa8044291429ff8e5f428b80b70fbfe8a",
+      "source_file": "baselines/classical/train.py",
+      "source_sha256": "fdd8eabad67f5cde174217d788faddb1f07aa1cb36460053c544221423339a61",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST; glue-code formatting checked by AST"
+    },
+    {
+      "file": "baselines/train.py",
+      "sha256": "9eede265d251b794948f31edc48180df2aef332396b02ebb293de0e15729bf34",
+      "source_file": "run_baseline.py",
+      "source_sha256": "151888dc7e0042fe8cd9962aacf368011db75cb4eddcf2f3f9a0fe95e9db0a3c",
+      "changes": "namespace/path organization only; computational functions checked by normalized AST; glue-code formatting checked by AST"
+    },
+    {
+      "file": "baselines/wspred/model.py",
+      "sha256": "009e3caf06a726792a0749ae6544d6633683f4385c37a7bd25a218444051cfa4",
+      "source_file": null,
+      "source_sha256": null,
+      "changes": "public interface/documentation"
+    },
+    {
+      "file": "baselines/nntf/model.py",
+      "sha256": "c930c437e9f72f08c5a960784c4d4c2b9fb06fb4bf78810c63e37bf853508d23",
+      "source_file": null,
+      "source_sha256": null,
+      "changes": "public interface/documentation"
+    },
+    {
+      "file": "baselines/ctf/model.py",
+      "sha256": "cfcabcabe119ceb2ce8fbfb063622993fac51a98d80403a940c9ef95910e0294",
+      "source_file": null,
+      "source_sha256": null,
+      "changes": "public interface/documentation"
+    },
+    {
+      "file": "baselines/wspred/train.py",
+      "sha256": "2ebdd65dd86b0d4e207f0aa1a4b3fb4c6badb8ee7b791394cae530090b054ddb",
+      "source_file": null,
+      "source_sha256": null,
+      "changes": "public interface/documentation"
+    },
+    {
+      "file": "baselines/nntf/train.py",
+      "sha256": "026008bebd68fd132d1e6d7f302ac5b7e0e079d1643d2c1efcc3fba7ccf94568",
+      "source_file": null,
+      "source_sha256": null,
+      "changes": "public interface/documentation"
+    },
+    {
+      "file": "baselines/bnlft/train.py",
+      "sha256": "1662d7d07b650cf67d50797fc704d06fd91740028099e9c4470b426290883c87",
+      "source_file": null,
+      "source_sha256": null,
+      "changes": "public interface/documentation"
+    },
+    {
+      "file": "baselines/ctf/train.py",
+      "sha256": "9a997ce46fb1f7aee80a23c8e4069d7384fdce3f8758486833464918d208d592",
+      "source_file": null,
+      "source_sha256": null,
+      "changes": "public interface/documentation"
+    },
+    {
+      "file": "baselines/trcf/train.py",
+      "sha256": "9b3ece87fbb545e3d8954b0eff40c6789840d4aa41535d857380eeb55261ca8a",
+      "source_file": null,
+      "source_sha256": null,
+      "changes": "public interface/documentation"
+    },
+    {
+      "file": "baselines/gmcl/train.py",
+      "sha256": "dab2e3ba0a997ef29bfe1816196ddf46c61d3952b9e1946e9fb55f1088720c62",
+      "source_file": null,
+      "source_sha256": null,
+      "changes": "public interface/documentation"
+    },
+    {
+      "file": "tests/smoke_test.py",
+      "sha256": "ef2e9cecaf032f54cd088b587fedc532272a226f6806d3436ec09c7faf61a9d6",
+      "source_file": "tests/smoke_test.py",
+      "source_sha256": "1a627ad82065e909dcb17eee79d519e9c6d024e902201901a37a1188f97dec76",
+      "changes": "commands changed to namespaced module entry points; same integration inputs/checks; glue-code formatting checked by AST"
+    }
+  ]
+}
